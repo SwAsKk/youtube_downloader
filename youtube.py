@@ -2,7 +2,7 @@ from pytube import YouTube
 import moviepy.editor 
 import os.path
 
-video_link = input("Введите ссылку на видео")
+video_link = input(f"Enter video link:")
 yt = YouTube(video_link)
 
 print(f"Заголовок: {yt.title}")
